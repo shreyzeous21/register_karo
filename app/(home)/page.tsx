@@ -13,6 +13,7 @@ import Faq from "./_components/Faq";
 import Testimonials from "./_components/Testimonials";
 import BlogSection from "./_components/BlogSection";
 import Banner from "./_components/Banner";
+import Tools from "./_components/Tools";
 
 export default function Home() {
   return (
@@ -23,6 +24,7 @@ export default function Home() {
       <AboutSection />
       <ChooseSection />
       <VideoSection />
+      <Tools/>
       <Banner />
       <BlogSection />
       <Testimonials />
